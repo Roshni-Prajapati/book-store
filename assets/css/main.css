@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900;&family=Inter:wght@300;400;500;600;700&display=swap");
+/* ###########button################### */
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Cardo", serif;
+  background-color: #f5f5f5;
+}
+ul,
+ol {
+  margin-left: 20px;
+}
+ol {
+  list-style-type: 1;
+}
+ul {
+  list-style-type: disc;
+}
+ul li::marker {
+  color: red;
+}
+h1 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 65px;
+  line-height: 130%;
+  letter-spacing: -0.975px;
+}
+h2 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 55px;
+  line-height: 130%;
+  letter-spacing: -0.825px;
+}
+h3 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: -0.675px;
+}
+h4 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: -0.48px;
+}
+h5 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.36px;
+}
+h6 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: -0.33px;
+}
+p {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 170%;
+  letter-spacing: -0.19px;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-family: Cardo;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 125%;
+  letter-spacing: 0.38px;
+}
+
+.sm-bg-btn {
+  padding: 20px 56px;
+  background-color: #ffca42;
+}
+.sm-btn {
+  padding: 19px 55px;
+  border: 1px solid #ffca42;
+  background-color: #ffffff;
+}
+.lg-bg-btn {
+  padding: 20px 96px;
+  background-color: #ffca42;
+}
+.lg-btn {
+  padding: 19px 95px;
+  border: 1px solid #ffca42;
+  background-color: #ffffff;
+}
+.container {
+  height: 500px;
+  width: 1300px;
+  margin: 0px auto;
+}
+/* ##################header################# */
+.header {
+  color: #ffffff;
+  background-color: #1b3764;
+}
+.header-section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.pages a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pages span {
+  display: inline-flex;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 28px;
+  line-height: 125%;
+}
+
+.media img,
+.pages img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+}
+.media a img {
+  filter: invert(1);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar ul {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+ul li a {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 125%;
+  letter-spacing: -0.17px;
+}
+.order-btn a {
+  padding: 13px 33px;
+  background-color: #ffca42;
+  color: #1b3764;
+  font-size: 19px;
+  line-height: 125%;
+}
+.header-content {
+  width: 45%;
+  text-align: center;
+  margin: 138px auto 119px;
+}
+.header-content h2 {
+  color: #f5f8fc;
+  position: relative;
+  padding-bottom: 34px;
+  margin-bottom: 19px;
+}
+.header-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 55px;
+  border-bottom: 3px solid #ffca42;
+}
+.header-content p {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 170%;
+  letter-spacing: -0.19px;
+  color: #b4c7e7;
+}
+/* ##################footer################# */
+
+.footer {
+  background-color: #1b3764;
+  color: #ffffff;
+}
+.footer-link {
+  padding: 84px 0px 77px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+.link h5 {
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  padding-bottom: 23px;
+}
+.link li a {
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 18px;
+  line-height: 205%;
+  letter-spacing: -0.18px;
+}
+.link p {
+  width: 25%;
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  margin: 6px 0px 15px;
+}
+.link span {
+  width: 71%;
+  font-family: Cardo;
+  font-weight: Bold;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  margin: 6px 0px 15px;
+}
+.link {
+  display: flex;
+  justify-content: end;
+  gap: 65px;
+}
+.link .keep-touch {
+  width: 35%;
+}
+.footer-header .pages {
+  padding-bottom: 27px;
+}
+.footer-header .media a {
+  background-color: transparent;
+  border: 1px solid #ffca42;
+}
+.footer-header .media a img {
+  filter: invert(0);
+}
+.link ul {
+  list-style-type: none;
+  margin: 0px;
+}
+.link li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.address,
+.phone,
+.mail {
+  display: flex;
+  gap: 14px;
+}
+.copy-right p {
+  text-align: center;
+  font-family: Cardo;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 200%;
+  letter-spacing: -0.17px;
+  color: #b4c7e7;
+}
+.copy-right span {
+  font-weight: 600;
+  color: #ffffff;
+}
