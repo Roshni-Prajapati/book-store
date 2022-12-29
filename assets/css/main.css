@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900;&family=Inter:wght@300;400;500;600;700&display=swap");
-/* ###########button################### */
-
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter+Tight:wght@600&family=Inter:wght@300;400;500;600;700&display=swap");
+/*###########button################### */
 *,
 *::after,
 *::before {
@@ -240,10 +239,12 @@ ul li a {
 }
 .link li a {
   font-family: Inter;
-  font-weight: Bold;
+  font-weight: 400;
   font-size: 18px;
   line-height: 205%;
   letter-spacing: -0.18px;
+  color: #b4c7e7;
+
 }
 .link p {
   width: 25%;
@@ -256,12 +257,13 @@ ul li a {
 }
 .link span {
   width: 71%;
-  font-family: Cardo;
+  font-family: Inter;
   font-weight: Bold;
   font-size: 18px;
   line-height: 125%;
   letter-spacing: 0.36px;
   margin: 6px 0px 15px;
+  color: #b4c7e7;
 }
 .link {
   display: flex;
