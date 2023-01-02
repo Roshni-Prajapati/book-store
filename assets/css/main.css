@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900;&family=Inter:wght@300;400;500;600;700&display=swap");
-/* ###########button################### */
-
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter+Tight:wght@600&family=Inter:wght@300;400;500;600;700;800&family=Lexend:wght@300;400;500;600;700;800;900&display=swap");
+/*###########button################### */
 *,
 *::after,
 *::before {
@@ -9,8 +8,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
   font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Inter Tight", sans-serif;
+  font-family: "Lexend", sans-serif;
   background-color: #f5f5f5;
 }
 ul,
@@ -24,7 +25,7 @@ ul {
   list-style-type: disc;
 }
 ul li::marker {
-  color: red;
+  color: #ffca42;
 }
 h1 {
   font-family: Cardo;
@@ -85,27 +86,10 @@ a {
   line-height: 125%;
   letter-spacing: 0.38px;
 }
-
-.sm-bg-btn {
-  padding: 20px 56px;
-  background-color: #ffca42;
-}
-.sm-btn {
-  padding: 19px 55px;
-  border: 1px solid #ffca42;
-  background-color: #ffffff;
-}
-.lg-bg-btn {
-  padding: 20px 96px;
-  background-color: #ffca42;
-}
-.lg-btn {
-  padding: 19px 95px;
-  border: 1px solid #ffca42;
-  background-color: #ffffff;
+span {
+  display: inline-block;
 }
 .container {
-  height: 500px;
   width: 1300px;
   margin: 0px auto;
 }
@@ -192,7 +176,7 @@ ul li a {
 .header-content {
   width: 45%;
   text-align: center;
-  margin: 138px auto 119px;
+  padding: 138px 0px 119px;
 }
 .header-content h2 {
   color: #f5f8fc;
@@ -224,10 +208,10 @@ ul li a {
   color: #ffffff;
 }
 .footer-link {
-  padding: 84px 0px 77px;
   margin-bottom: 18px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
+  padding: 84px 0px 77px;
   justify-content: space-between;
 }
 .link h5 {
@@ -240,10 +224,11 @@ ul li a {
 }
 .link li a {
   font-family: Inter;
-  font-weight: Bold;
+  font-weight: 400;
   font-size: 18px;
   line-height: 205%;
   letter-spacing: -0.18px;
+  color: #b4c7e7;
 }
 .link p {
   width: 25%;
@@ -256,12 +241,13 @@ ul li a {
 }
 .link span {
   width: 71%;
-  font-family: Cardo;
-  font-weight: Bold;
+  font-family: Inter;
+  font-weight: normal;
   font-size: 18px;
   line-height: 125%;
   letter-spacing: 0.36px;
   margin: 6px 0px 15px;
+  color: #b4c7e7;
 }
 .link {
   display: flex;
@@ -308,4 +294,80 @@ ul li a {
 .copy-right span {
   font-weight: 600;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1320px) {
+  .container {
+    width: 1180px;
+  }
+  .header-content {
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 747px;
+  }
+  .header-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-content {
+    padding: 100px 0px;
+    width: 60%;
+  }
+  .footer-link{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .link{
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-header .pages{
+    padding-bottom: 0px;
+  }
+  .media{
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 555px;
+  }
+  .navbar,
+  .navbar ul {
+    gap: 20px;
+  }
+  .order-btn a{
+    padding: 13px 25px;
+  }
+  .header-content {
+    padding: 60px 0px;
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 95%;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar ul{
+    gap: 10px;
+  }
+  .header-content{
+    width: 100%;
+  }
 }
