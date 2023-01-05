@@ -1,15 +1,16 @@
 /* ######################header-content######################## */
 .header-content {
   width: auto;
-  gap: 95px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: left;
   align-items: center;
   padding: 95px 0px 115px;
 }
 .header-left,
 .header-right {
-  width: 50%;
+  width: 46%;
 }
 .header-right {
   background-color: #f9fbff;
@@ -111,7 +112,7 @@
 }
 .page-count span {
   font-family: inter;
-  font-weight: regular;
+  font-weight: normal;
   font-size: 18px;
   line-height: 170%;
   letter-spacing: -0.18px;
@@ -219,11 +220,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 170%;
-  letter-spacing: -0.16%;
+  letter-spacing: -0.16px;
   color: #1b3764;
   text-align: center;
 }
-.toolkit .majority-section{
+.toolkit .majority-section {
   position: absolute;
   top: 2%;
   right: 6%;
@@ -269,4 +270,128 @@
   line-height: 150%;
   letter-spacing: -0.14px;
   color: #1b3764;
+}
+@media screen and (max-width: 1320px) {
+  .sub-title {
+    gap: 10px;
+  }
+  .sub-title p {
+    font-size: 22px;
+  }
+  .left-content h1 {
+    font-size: 60px;
+  }
+  .left-content p {
+    font-size: 18px;
+  }
+  .toolkit .majority-section {
+    right: 0%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .left-content h1 {
+    font-size: 50px;
+  }
+  .page-count {
+    gap: 50px;
+  }
+  .right-content h2 {
+    font-size: 50px;
+  }
+  .lamp {
+    width: 250px;
+    height: 300px;
+  }
+  .lamp h4 {
+    width: 70%;
+  }
+  .toolkit .majority-section {
+    right: -11%;
+  }
+  .majority-section .majority {
+    width: 143px;
+    height: 143px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-content {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .header-left,
+  .header-right {
+    width: 90%;
+  }
+  .left-content h1 {
+    font-size: 60px;
+  }
+  .right-content h2 {
+    font-size: 60px;
+  }
+  .right-content p {
+    font-size: 21px;
+  }
+  .left-btn {
+    gap: 75px;
+  }
+  .page-count {
+    gap: 90px;
+  }
+  .lamp {
+    width: 300px;
+    height: 330px;
+  }
+  .toolkit .majority-section {
+    right: 0%;
+  }
+  .majority-section .majority {
+    width: 163px;
+    height: 163px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
+  .right-content p{
+    font-size: 18px;
+  }
+  .lamp h4{
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .page-count{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .left-btn{
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-right{
+    padding: 15px 20px;
+  }
+  .right-content h2 {
+    font-size: 38px;
+}
+.toolkit{
+  padding-left: 0px;
+}
+.lamp{
+  margin-top: 170px;
+  width: 280px;
+}
+.lamp h4{
+  width: 80%;
+}
+.toolkit .majority-section{
+  top: 5%;
+  right: 18%;
+}
+.left-content h1 {
+  font-size: 35px;
+}
 }
