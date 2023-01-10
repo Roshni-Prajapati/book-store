@@ -271,6 +271,345 @@
   letter-spacing: -0.14px;
   color: #1b3764;
 }
+/* ####################author-book####################### */
+
+.author-book {
+  padding: 145px 0px;
+}
+.author-book-section h5 {
+  position: relative;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1b3764;
+  padding-bottom: 22px;
+  margin-bottom: 57px;
+}
+.author-book-section h5::before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 55px;
+  border-bottom: 3px solid #ffca42;
+}
+
+.author-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-cards .card {
+  width: 47%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card-1,
+.card .card-2 {
+  width: 47%;
+}
+.card .card-1 {
+  box-shadow: 0px 20px 25px rgba(4, 11, 20, 0.08);
+}
+.card .card-border-1 {
+  text-align: center;
+  padding: 10px 10px 20px;
+  background-color: #f5f9ff;
+  border: 4px solid #dbe1e9;
+  overflow: hidden;
+}
+.card .card-border-2 {
+  background: #f9fbff;
+  border: 12px solid #dbe1e9;
+  padding: 14px 10px 11px;
+}
+.card h6 {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffca42;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+.card h6::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  background-color: #1b3764;
+  width: 147%;
+  height: 125%;
+  border-radius: 50%;
+  transform: translate(-50%, 0%);
+  z-index: -1;
+}
+
+.card-1 p {
+  padding-bottom: 15px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1b3764;
+}
+.card-1 img {
+  width: auto;
+  height: auto;
+  object-position: center;
+  object-fit: cover;
+}
+.bottom-content {
+  padding: 16px 0px 12px;
+}
+.card .bottom-content h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1b3764;
+  padding: 0px;
+}
+.bottom-content h6::before {
+  content: unset;
+}
+.bottom-content p {
+  padding: 0px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #d0a129;
+}
+.star {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.star p {
+  padding: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 7px;
+  line-height: 125%;
+  letter-spacing: 0.25em;
+  color: #1b3764;
+}
+.star span {
+  background: #ffca42;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.card-2 h5 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #1b3764;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-bottom: 14px;
+}
+.card-2 h5::before {
+  content: unset;
+}
+.card-2 p {
+  padding-right: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+}
+.card-2 .book-length {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.book-length .page-length {
+  padding-left: 30px;
+}
+.page-length p {
+  position: relative;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #1b3764;
+}
+.page-length p::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -13px;
+  background: #ffca42;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: translate(-100%, -50%);
+}
+.page-length span {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+}
+.card-2 a {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #1b3764;
+  border: 1px solid #ffca42;
+  padding: 20px 53px 21px;
+}
+.card-border-2 h2 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #1b3764;
+}
+.card-border-2 p {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #1b3764;
+  padding-bottom: 0px;
+}
+.card-border-2 .majority h6 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 125%;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1b3764;
+}
+.card-border-2 .majority h6::before {
+  content: unset;
+}
+.card-border-2.majority-section .majority {
+  width: 83px;
+  height: 83px;
+}
+.card-border-2 .design .star {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8px;
+  line-height: 200%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1b3764;
+}
+.card-border-2 .design .left-line,
+.card-border-2 .design .right-line {
+  width: 18px;
+}
+
+.card-border-2 .toolkit {
+  margin-top: 0px;
+}
+.card-border-2 .majority-section .majority {
+  width: 82px;
+  height: 82px;
+  border: 5px solid rgba(255, 201, 66, 0.5);
+}
+.card-border-2 .majority p {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 7px;
+  width: 80%;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #1b3764;
+}
+.card-border-2 .lamp {
+  width: 145px;
+  height: 160px;
+}
+.card-border-2 .lamp h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 200%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1b3764;
+  margin: 0px;
+}
+.card .card-border-2 h6::before {
+  content: unset;
+}
+.card-border-2 h6 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 125%;
+  color: #1b3764;
+  padding: 10px 0px 0px;
+}
+.card-border-2 .toolkit .majority-section {
+  top: 7%;
+  right: 3%;
+}
+
 @media screen and (max-width: 1320px) {
   .sub-title {
     gap: 10px;
@@ -355,60 +694,288 @@
   .header-right {
     width: 100%;
   }
-  .right-content p{
+  .right-content p {
     font-size: 18px;
   }
-  .lamp h4{
+  .lamp h4 {
     font-size: 23px;
   }
-  .header-content{
+  .header-content {
     padding: 60px 0px;
   }
 }
 @media screen and (max-width: 575px) {
-  .page-count{
+  .page-count {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
     margin-top: 30px;
   }
-  .left-btn{
+  .left-btn {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  .header-right{
+  .header-right {
     padding: 15px 20px;
   }
   .right-content h2 {
     font-size: 38px;
+  }
+  .toolkit {
+    padding-left: 0px;
+  }
+  .lamp {
+    margin-top: 170px;
+    width: 280px;
+  }
+  .lamp h4 {
+    padding-left: 10px;
+    width: 80%;
+  }
+  .toolkit .majority-section {
+    top: 5%;
+    right: 18%;
+  }
+  .left-content h1 {
+    font-size: 35px;
+  }
+  .left-content p {
+    font-size: 14px;
+    padding: 28px 0px 30px;
+  }
+  .header-content {
+    padding: 45px 0px;
+  }
 }
-.toolkit{
-  padding-left: 0px;
+/* ################card card-border-2################## */
+@media screen and (max-width: 1320px) {
+  .star p {
+    font-size: 6px;
+  }
+  .card-border-2 .toolkit .majority-section {
+    right: 0%;
+  }
 }
-.lamp{
-  margin-top: 170px;
-  width: 280px;
+@media screen and (max-width: 1200px) {
+  .card h6 {
+    font-size: 31px;
+  }
+  .card-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .star p {
+    font-size: 5px;
+  }
+  .star span {
+    width: 8px;
+    height: 8px;
+  }
+  .card-2 h5{
+    padding-bottom: 5px;
+    font-size: 30px;
+  }
+  .card-2 p {
+    padding-right: 0px;
+    font-size: 15px;
+  }
+  .page-length p {
+    font-size: 24px;
+  }
+  .card-2 .book-length {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0px;
+    gap: 15px;
+  }
+  .card-2 a {
+    padding: 15px 20px 15px;
+  }
+  .card-border-2 .right-content h2 {
+    font-size: 27px;
+  }
+  .card-border-2 .right-content h2 span::before {
+    height: 25%;
+  }
+  .card-border-2 p {
+    font-size: 9px;
+  }
+  .card-border-2 .toolkit .design {
+    gap: 9px;
+  }
+  .card-border-2 .toolkit .majority-section {
+    top: 5%;
+    right: -4%;
+  }
+  .card-border-2 .majority-section .majority {
+    width: 75px;
+    height: 75px;
+  }
+  .card-border-2 .majority h6 {
+    font-size: 8px;
+    padding: 0px;
+  }
+  .card-border-2 .majority p {
+    font-size: 7px;
+  }
+  .card-border-2 .lamp {
+    width: 100%;
+    height: 110px;
+  }
+  .card-border-2 .lamp h4 {
+    font-size: 9px;
+  }
+  .card-border-2 h6 {
+    font-size: 15px;
+  }
 }
-.lamp h4{
-  padding-left: 10px;
-  width: 80%;
+@media screen and (max-width: 991px) {
+  .author-cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .author-book{
+    padding: 100px 0px;
+  }
+  .author-cards .card {
+    width: 90%;
+  }
+  .card-2 .book-length {
+    flex-direction: row;
+    padding: 30px 0px;
+  }
+  .card h6 {
+    font-size: 50px;
+  }
+  .star p {
+    font-size: 7px;
+  }
+ 
+  .card-2 p {
+    padding-right: 0px;
+    font-size: 19px;
+  }
+  .page-length p{
+    font-size: 24px;
+   }
+  .star span {
+    width: 10px;
+    height: 10px;
+  }
+  .card-1 img {
+    width: auto;
+  }
+  .card-2 a {
+    padding: 20px 53px 21px;
+  }
+  .card-border-2 .right-content h2 {
+    font-size: 35px;
+  }
+  .card-border-2 .toolkit .design {
+    gap: 18px;
+  }
+  .card-border-2 .lamp {
+    width: 145px;
+    height: 160px;
+  }
+  .card-border-2 .lamp h4 {
+    font-size: 11px;
+  }
+  .card-border-2 p {
+    font-size: 10px;
+  }
+  .card-border-2 .toolkit .majority-section {
+    top: 7%;
+    right: 3%;
+  }
+  .card-border-2 .majority-section .majority {
+    width: 82px;
+    height: 82px;
+  }
+  .card-border-2 .majority h6 {
+    font-size: 10px;
+    padding: 10px 0px 0px;
+  }
+  .card-border-2 .majority p {
+    font-size: 7px;
+  }
+  .card-border-2 h6 {
+    font-size: 15px;
+  }
 }
-.toolkit .majority-section{
+@media screen and (max-width: 767px) {
+  .author-cards .card{
+    width: 100%;
+  }
+  .author-book{
+    padding: 60px 0px;
+  }
+  .card h6{
+    font-size: 31px;
+  }
+  .card-1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .star span{
+    width: 10px;
+    height: 10px;
+}
+.star p{
+  font-size: 5px;
+}
+.card-2 a {
+  padding: 16px 53px 16px;
+}
+.card-border-2 .right-content h2 {
+  font-size: 27px;
+}
+.card-border-2 p{
+  font-size: 8px;
+}
+.card-border-2 .toolkit .design{
+  gap: 9px;
+}
+.card-border-2 .toolkit .majority-section{
   top: 5%;
-  right: 18%;
+  right: -3%;
 }
-.left-content h1 {
-  font-size: 35px;
+.card-border-2 .lamp {
+  width: 120px;
+  height: 120px;
 }
-.left-content p {
-  font-size: 14px;
-  padding: 28px 0px 30px;
+.card-border-2 .lamp h4 {
+  font-size: 9px;
 }
-.header-content{
-  padding: 45px 0px;
+.card-border-2 h6 {
+  font-size: 15px;
 }
-
 }
-
-
+@media screen and (max-width: 575px) {
+  .card-border-2 .lamp{
+    margin-top: 0px;
+  }
+  .card .card-1, .card .card-2{
+    width: 85%;
+  }
+  .author-cards .card{
+    row-gap: 50px;
+    flex-direction: column;
+    
+  }
+  .author-book{
+    padding: 40px 0px;
+  }
+  
+  .card h6{
+    font-size: 50px;
+  }
+  .author-book-section h5{
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .card-border-2 h6{
+    font-size: 15px;
+  }
+}

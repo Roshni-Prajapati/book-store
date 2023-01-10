@@ -174,7 +174,7 @@ ul li a {
   line-height: 125%;
   transition: all 0.5s ease-in-out;
 }
-.order-btn a:hover{
+.order-btn a:hover {
   color: #ffca42;
   background-color: #1b3764;
 }
@@ -310,6 +310,7 @@ ul li a {
     margin: 0px auto;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .container {
     width: 970px;
@@ -331,6 +332,7 @@ ul li a {
     padding: 13px 25px;
   }
 }
+
 @media (max-width: 991px) {
   .container {
     width: 747px;
@@ -339,7 +341,7 @@ ul li a {
     flex-direction: column;
     gap: 20px;
   }
-  .navbar{
+  .navbar {
     width: 100%;
     justify-content: space-between;
   }
@@ -377,11 +379,11 @@ ul li a {
     width: 42%;
   }
 }
+
 @media (max-width: 767px) {
   .container {
     width: 555px;
   }
-  
 
   .header-content {
     padding: 60px 0px;
@@ -403,9 +405,11 @@ ul li a {
     margin: 0px auto;
   }
 }
+
 @media (max-width: 575px) {
   .container {
-    width: 95%;
+    width: 310px;
+    margin: 0px auto;
   }
   .navbar {
     flex-direction: column;
