@@ -311,6 +311,7 @@ ul li a {
   }
 }
 
+
 @media screen and (max-width: 1200px) {
   .container {
     width: 970px;
@@ -332,6 +333,7 @@ ul li a {
     padding: 13px 25px;
   }
 }
+
 
 @media (max-width: 991px) {
   .container {
@@ -380,6 +382,7 @@ ul li a {
   }
 }
 
+
 @media (max-width: 767px) {
   .container {
     width: 555px;
@@ -408,8 +411,7 @@ ul li a {
 
 @media (max-width: 575px) {
   .container {
-    width: 310px;
-    margin: 0px auto;
+    width: 95%;
   }
   .navbar {
     flex-direction: column;
